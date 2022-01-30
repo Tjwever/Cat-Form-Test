@@ -10,12 +10,15 @@ li {
   list-style: none;
 }
 
+body {
+  background-color: #f1f1ea;
+}
+
 header {
   background-color: #dddcd8;
 }
 
 main {
-  background-color: #f1f1ea;
   text-align: center;
 }
 
