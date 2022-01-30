@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Sweet Angel Cats</title>
+</head>
+<body>
+  
+  <header>
+    <ul class='header-nav'>
+      <li class="icon"><img src="/assets/caticon.png" alt="Cat Logo"></li>
+      <li class="SAC"><h1>Sweet Angel Cats</h1></li>
+      <li>
+        <ul class='nav-bar'>
+          <li>About</li>
+          <li>Purchase</li>
+          <li>Contact</li>
+        </ul>
+      </li>
+    </ul>
+    
+  </header>
+  
+  <main>
+    <br/>
+    <h1>Welcome to the home page for the sweetest cats ever.</h1>
+    <div class="sweet-boy">
+      <img src="/assets/cat4.jpg" alt="Beautiful baby boy">
+    </div>
+    <h2>Here, you'll find a list on all the cats we have to offer.</h2>
+    <h3>And now, RABIES FREE!!!</h3>
+    <br/>
+    <hr>
+    <br/>
+
+    <h2>Please select the type of cat you're looking for</h2>
+    <br/>
+    
+    <form action="" id="cat-form">
+      <select id="cat-type" name="cat-type" onChange="getDropdown(this)">
+        <option value="default" selected>--Please select cat--</option>
+        <option value="short-gray">Short Hair Gray</option>
+        <option value="calico">Tan Calico</option>
+        <option value="snow-white">White Fur Ball</option>
+      </select>
+    </form>
+
+    <div class="cat-list">
+      <div class="cat-section" id="short-gray"><img src="/assets/cat1.jpg" alt="Mr. Business"><p>Mr.Business.  Short hair gray.  Super Friendly.  For more info, click <span>here</span></p></div>
+      <div class="cat-section" id="calico"><img src="/assets/cat2.jpg" alt="Princess Buttercup"><p>Princess Buttercup.  Calico.  Loveable, can't wait to be picked up.  For more info, click <span>here</span></p></div>
+      <div class="cat-section" id="snow-white"><img src="/assets/cat3.jpg" alt="Pickels"><p>Pickels.  Short hair snowball.  Loves kids.  For more info, click <span>here</span></p></div>
+
+    </div>
+
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
